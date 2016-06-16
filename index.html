@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>more-branching</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Car insurance</h1>
+
+      <p>We need your information:</p>
+
+      <form id="insurance">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">gender</label>
+        <select id="gender">
+          <option value="female">female</option>
+          <option value="male">male</option>
+        </select>
+
+        <button type="submit" class="btn">calculate my quote</button>
+      </form>
+
+      <div id="quote">
+        <p>pay me $ <span id="rate"></span>a month for insurance.just walk!</p>
+      </div>
+    </div>
+  </body>
+</html>
